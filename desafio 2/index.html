@@ -1,0 +1,61 @@
+<!-- Desafío práctico:
+1. Tomar el archivo HTML del desafío anterior.
+2. El contenido del archivo colocarlo dentro de un DIV.
+3. Crear un form de contacto abajo de nuestra info. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 2</title>
+    <style>
+      .foto {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div>
+      <h1>Mi perfil</h1>
+      <img
+        class="foto"
+        src="https://yt3.googleusercontent.com/ytc/AIdro_m0gx2_lXu9xAXKQTtOxCwx4ePo5I2eQ29P0eTlR3iCDdd0=s900-c-k-c0x00ffffff-no-rj"
+        alt="mi foto"
+      />
+      <ul>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+      </ul>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias sit
+        aspernatur, cum blanditiis inventore ad ea quis aut porro fugit.
+      </p>
+    </div>
+
+    <hr>
+
+    <p>Ponte en contacto</p>
+
+    <form>
+        <div>
+        <label for="name">Nombre y apellido: </label>
+        <input type="text" id="name" placeholder="John Doe" required> 
+    </div>
+    <div>
+        <label for="cel">Nro de telefono</label>
+        <input type="tel" id="cel" placeholder="..." required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="johndoe@gmail.com" required>
+    </div>
+    <button>Enviar</button>
+    </form>
+
+  </body>
+</html>
